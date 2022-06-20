@@ -25,7 +25,7 @@ class UpdateController extends Controller
         Helpers::setEnvironmentValue('PURCHASE_CODE', $request['purchase_key']);
         Helpers::setEnvironmentValue('SOFTWARE_VERSION', '10.0');
         Helpers::setEnvironmentValue('APP_MODE', 'live');
-        Helpers::setEnvironmentValue('APP_NAME', '6valley' . time());
+        Helpers::setEnvironmentValue('APP_NAME', 'Zooopify' . time());
         Helpers::setEnvironmentValue('SESSION_LIFETIME', '60');
 
         $data = Helpers::requestSender();

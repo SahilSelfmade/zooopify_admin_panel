@@ -9,24 +9,20 @@
                     </div>
                 @endif
                 <div class="mar-ver pad-btm text-center">
-                    <h1 class="h3">Purchase Code</h1>
-                    <p>
-                        Provide your codecanyon purchase code.<br>
-                        <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code"
-                           class="text-info">Where to get purchase code?</a>
-                    </p>
+                    <h1 class="h3">Zooopify Credentials</h1>
+                    
                 </div>
                 <div class="text-muted font-13">
                     <form method="POST" action="{{ route('purchase.code') }}">
                         @csrf
                         <div class="form-group">
-                            <label for="purchase_code">Codecanyon Username</label>
+                            <label for="purchase_code">Username</label>
                             <input type="text" value="{{env('BUYER_USERNAME')}}" class="form-control" id="username"
                                    name="username" required>
                         </div>
 
                         <div class="form-group">
-                            <label for="purchase_code">Purchase Code</label>
+                            <label for="purchase_code">Zooopify Credentials</label>
                             <input type="text" value="{{env('PURCHASE_CODE')}}" class="form-control" id="purchase_key"
                                    name="purchase_key" required>
                         </div>
