@@ -99,7 +99,7 @@
                                                 <li>
                                                     {{\App\CPU\translate('Add')}}
                                                     <b>{{\App\CPU\translate('domain')}}</b>
-                                                    {{\App\CPU\translate('(For ex: demo.6amtech.com)')}}
+                                                    {{\App\CPU\translate('(For ex: sahilselfmade.com)')}}
                                                 </li>
                                                 <li>
                                                     {{\App\CPU\translate('Check in ')}}
